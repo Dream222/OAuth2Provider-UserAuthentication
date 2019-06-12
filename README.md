@@ -35,7 +35,3 @@ $ npm run webpack
 # run node.js server
 $ npm run api
 ```
-
-## License
-
-MIT © [Andrej Gajdos](http://andrejgajdos.com)
