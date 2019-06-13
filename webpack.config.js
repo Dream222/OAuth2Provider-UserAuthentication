@@ -27,6 +27,21 @@ const common = {
         exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',
+          query:
+          {
+              presets:['react']
+          },
+          // options: {
+          //   presets: [
+          //     // 'preset-env',
+          //     'react',
+          //     {
+          //       plugins: [
+          //         // 'plugin-proposal-class-properties'
+          //       ]
+          //     }
+          //   ]
+          // },
         },
       },
     ],

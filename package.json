@@ -1,5 +1,5 @@
 {
-  "name": "auth-flow-in-spa-koa-passport-react",
+  "name": "OAuth2Provider-UserAuthentication",
   "version": "0.0.0",
   "description": "A complete tutorial to implement user authentication in SPA with koa.js, passport.js, React.js and React Router",
   "main": "index.js",

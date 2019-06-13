@@ -35,3 +35,36 @@ $ npm run webpack
 # run node.js server
 $ npm run api
 ```
+
+
+## issues
+```
+ERROR in ./index.jsx
+Module build failed: SyntaxError: Unexpected token (23:4)
+
+  21 | const store = createStore(
+  22 |   combineReducers({
+> 23 |     ...reducers,
+     |     ^
+  24 |     router: routerReducer,
+  25 |   }),
+  26 |   composeWithDevTools(applyMiddleware(routerMiddleware(history), sagaMiddleware)),
+
+ @ multi babel-polyfill ./index.jsx
+ℹ ｢wdm｣: Failed to compile.
+
+```
+***
+```
+You can simply install the Babel "Object rest spread transform" preset like so: 
+npm install --save-dev babel-plugin-transform-object-rest-spread
+
+And add it to your list of plugins:
+
+{
+    "plugins": [
+        // Other plugins...
+        "transform-object-rest-spread"
+    ]
+}
+```
