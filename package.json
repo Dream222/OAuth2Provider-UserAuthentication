@@ -49,7 +49,7 @@
     "koa-session": "^5.8.1",
     "koa-simple-ratelimit": "^2.4.1",
     "koa-static": "^4.0.2",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1",
     "passport-google-auth": "^1.0.2",
